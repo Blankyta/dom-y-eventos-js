@@ -6,10 +6,13 @@
     <title>Ejercicio 1: Selección de Elementos por ID</title>
   </head>
   <body>
-    <!-- Escribe tu codigo html aqui -->
-
-    <script>
-      // Escribe tu codigo javascript aqui
-    </script>
+    <div id = "miElemento">Texto Inicial</div>
+    const elemento = document.getElementoById(miElemento)
+    console.log('Elemento: ', elemento)
   </body>
+    <script>
+      elemento.textContent = 'Texto Modificado'
+      console.log('Elemento 2: ', elemento)
+
+    </script>
 </html>
